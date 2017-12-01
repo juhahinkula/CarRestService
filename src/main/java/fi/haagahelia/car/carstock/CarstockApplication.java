@@ -25,8 +25,13 @@ public class CarstockApplication {
 			repository.save(new Car("Audi", "A3", "Black", "A95", 2014));
 			repository.save(new Car("Toyota", "Auris", "Black", "A95", 2013));
 			repository.save(new Car("Toyota", "Avensis", "White", "Diesel", 2015));
-			repository.save(new Car("Nissan", "Micra", "", "A95", 2015));
-			repository.save(new Car("Nissan", "X-Trail", "Blue", "Diesel", 2016));
+			repository.save(new Car("Toyota", "Prius", "White", "Hybrid", 2016));
+			repository.save(new Car("Nissan", "Micra", "Red", "A95", 2015));
+			repository.save(new Car("Nissan", "Micra", "Blue", "A95", 2016));
+			repository.save(new Car("Nissan", "Leaf", "Red", "Electric", 2016));
+			repository.save(new Car("Volvo", "V40", "White", "Diesel", 2017));
+			repository.save(new Car("Volvo", "XC40", "Black", "Diesel", 2016));
+			repository.save(new Car("Lexus", "LH200", "Silver", "Hybrid", 2016));
 		};
 	}
 
