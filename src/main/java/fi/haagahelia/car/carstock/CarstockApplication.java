@@ -19,15 +19,21 @@ public class CarstockApplication {
 	public CommandLineRunner demo(CarRepository repository) {
 		return (args) -> {
 			repository.save(new Car("Ford", "Mondeo", "Red", "Diesel", 2013));
+			repository.save(new Car("Ford", "Focus", "White", "A95", 2015));
 			repository.save(new Car("Alfa Romeo", "Spider", "Black", "B98", 2016));
 			repository.save(new Car("Mercedes-Benz", "180", "Silver", "Diesel", 2011));
 			repository.save(new Car("Mercedes-Benz", "A", "Red", "A95", 2017));
 			repository.save(new Car("Audi", "A3", "Black", "A95", 2014));
+			repository.save(new Car("Audi", "A3", "Silver", "A95", 2011));
+			repository.save(new Car("Audi", "A4", "White", "A95", 2017));
+			repository.save(new Car("Peugeot", "508", "Red", "A95", 2015));			
 			repository.save(new Car("Toyota", "Auris", "Black", "A95", 2013));
+			repository.save(new Car("Toyota", "Auris", "Blue", "Hybrid", 2015));
 			repository.save(new Car("Toyota", "Avensis", "White", "Diesel", 2015));
 			repository.save(new Car("Toyota", "Prius", "White", "Hybrid", 2016));
 			repository.save(new Car("Nissan", "Micra", "Red", "A95", 2015));
 			repository.save(new Car("Nissan", "Micra", "Blue", "A95", 2016));
+			repository.save(new Car("Tesla", "Model S", "White", "Electric", 2016));
 			repository.save(new Car("Nissan", "Leaf", "Red", "Electric", 2016));
 			repository.save(new Car("Volvo", "V40", "White", "Diesel", 2017));
 			repository.save(new Car("Volvo", "XC40", "Black", "Diesel", 2016));
