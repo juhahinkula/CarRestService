@@ -18,7 +18,7 @@ public class CarstockApplication {
 	@Bean
 	public CommandLineRunner demo(CarRepository repository) {
 		return (args) -> {
-			repository.save(new Car("Ford", "Modeo", "Red", "Diesel", 2013));
+			repository.save(new Car("Ford", "Mondeo", "Red", "Diesel", 2013));
 			repository.save(new Car("Alfa Romeo", "Spider", "Black", "B98", 2016));
 			repository.save(new Car("Mersedes-Benz", "180", "Silver", "Diesel", 2011));
 			repository.save(new Car("Mersedes-Benz", "A", "Red", "A95", 2017));
