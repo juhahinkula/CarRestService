@@ -11,18 +11,19 @@ public class Car {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long id;
 	private String brand, model, color, fuel;
-	private int year;
+	private int year, price;
 	
 	public Car() {
 	}
 	
-	public Car(String brand, String model, String color, String fuel, int year) {
+	public Car(String brand, String model, String color, String fuel, int year, int price) {
 		super();
 		this.brand = brand;
 		this.model = model;
 		this.color = color;
 		this.fuel = fuel;
 		this.year = year;
+		this.price = price;
 	}
 	
 	public long getId() {
