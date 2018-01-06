@@ -73,5 +73,12 @@ public class Car {
 	public void setYear(int year) {
 		this.year = year;
 	}
-	
+
+	public int getPrice() {
+		return price;
+	}
+
+	public void setPrice(int price) {
+		this.price = price;
+	}
 }
