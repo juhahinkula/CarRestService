@@ -20,8 +20,10 @@ public class CarstockApplication {
 		return (args) -> {
 			repository.save(new Car("Ford", "Mondeo", "Red", "Diesel", 2013, 17500));
 			repository.save(new Car("Ford", "Focus", "White", "A95", 2015, 18900));
+			repository.save(new Car("Ford", "Focus", "Red", "A95", 2016, 19000));
 			repository.save(new Car("Alfa Romeo", "Spider", "Black", "B98", 2016, 21000));
 			repository.save(new Car("Mercedes-Benz", "180", "Silver", "Diesel", 2011, 16500));
+			repository.save(new Car("Mercedes-Benz", "E200", "Silver", "Diesel", 2010, 21500));
 			repository.save(new Car("Mercedes-Benz", "A", "Red", "A95", 2017, 23500));
 			repository.save(new Car("Mazda", "6", "Red", "A95", 2018, 29000));
 			repository.save(new Car("Audi", "A3", "Black", "A95", 2014, 19000));
@@ -38,6 +40,7 @@ public class CarstockApplication {
 			repository.save(new Car("Tesla", "Model X", "Silver", "Electric", 2017, 96000));
 			repository.save(new Car("Nissan", "Leaf", "Red", "Electric", 2016, 29000));
 			repository.save(new Car("Volvo", "V40", "White", "Diesel", 2017, 32000));
+			repository.save(new Car("Volvo", "S40", "White", "E95", 2012, 17500));
 			repository.save(new Car("Volvo", "XC40", "Black", "Diesel", 2016, 35000));
 			repository.save(new Car("Volvo", "XC60", "Black", "A95", 2015, 39000));
 			repository.save(new Car("Lexus", "LH200", "Silver", "Hybrid", 2016, 35000));
