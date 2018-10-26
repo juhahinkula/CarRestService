@@ -49,6 +49,9 @@ public class CarstockApplication {
 			repository.save(new Car("Skoda", "Suberb", "Silver", "A95", 2018, 38000));
 			repository.save(new Car("Skoda", "Octavia", "Green", "A95", 2014, 18400));
 			repository.save(new Car("Subaru", "Outback", "White", "A95", 2012, 19000));
+			repository.save(new Car("Opel", "Astra", "White", "A95", 2017, 23000));
+			repository.save(new Car("Opel", "Mokka", "Red", "A95", 2014, 21000));
+			repository.save(new Car("Lexus", "Ct", "White", "Hybrid", 2013, 21500));
 		};
 	}
 
