@@ -1,4 +1,5 @@
 package fi.haagahelia.car.carstock.utils;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
