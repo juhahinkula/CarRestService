@@ -1,7 +1,8 @@
 package fi.haagahelia.car.carstock.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 import fi.haagahelia.car.carstock.utils.PopulateDB;
 
@@ -10,9 +11,9 @@ public class CarController {
 	@Autowired
 	private PopulateDB populateDb;
 	
-	@RequestMapping("reset")
-	public String reset() {
+	@PostMapping("reset")
+	public ResponseEntity<String>  reset() {
 		populateDb.populate();
-		return "reset ok";
+		return ResponseEntity.ok("DB reset done");
 	}
 }
