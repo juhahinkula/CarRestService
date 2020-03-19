@@ -21,6 +21,7 @@ public class PopulateDB {
 		repository.save(new Car("Mercedes-Benz", "180", "Silver", "Diesel", 2011, 16500));
 		repository.save(new Car("Mercedes-Benz", "E200", "Silver", "Diesel", 2010, 21500));
 		repository.save(new Car("Mercedes-Benz", "A", "Red", "A95", 2017, 23500));
+		repository.save(new Car("Mercedes-Benz", "A", "White", "A95", 2020, 34000));
 		repository.save(new Car("Mazda", "6", "Red", "A95", 2018, 29000));
 		repository.save(new Car("Audi", "A3", "Black", "A95", 2014, 19000));
 		repository.save(new Car("Audi", "A3", "Silver", "A95", 2011, 12500));
@@ -45,8 +46,9 @@ public class PopulateDB {
 		repository.save(new Car("Skoda", "Suberb", "Silver", "A95", 2018, 38000));
 		repository.save(new Car("Skoda", "Octavia", "Green", "A95", 2014, 18400));
 		repository.save(new Car("Subaru", "Outback", "White", "A95", 2012, 19000));
-		repository.save(new Car("Opel", "Astra", "White", "A95", 2017, 23000));
+		repository.save(new Car("Opel", "Astra", "White", "A95", 2019, 29000));
 		repository.save(new Car("Opel", "Mokka", "Red", "A95", 2014, 21000));
 		repository.save(new Car("Lexus", "Ct", "White", "Hybrid", 2013, 21500));			
+		repository.save(new Car("Lexus", "Ct", "Red", "Hybrid", 2020, 34500));
 	}
 }

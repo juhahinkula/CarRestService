@@ -5,8 +5,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import fi.haagahelia.car.carstock.domain.Car;
-import fi.haagahelia.car.carstock.domain.CarRepository;
 import fi.haagahelia.car.carstock.utils.PopulateDB;
 
 @SpringBootApplication
