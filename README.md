@@ -18,6 +18,8 @@ Header: 'Content-type': 'application/json'
 You can update car by calling ‘/cars/{id}’ endpoint with PUT method and giving a updated car inside the request body as a JSON object
 Header: 'Content-type': 'application/json'
 
+Note! You can re-populate the database by sending POST requst to '/reset' endpoint.
+
 
 
 
