@@ -35,14 +35,14 @@ public class PopulateDB {
 		repository.save(new Car("Nissan", "Micra", "Blue", "A95", 2016, 15500));
 		repository.save(new Car("Tesla", "Model S", "White", "Electric", 2020, 85000));
 		repository.save(new Car("Tesla", "Model X", "Silver", "Electric", 2019, 96000));
-		repository.save(new Car("Nissan", "Leaf", "Red", "Electric", 2016, 29000));
+		repository.save(new Car("Nissan", "Leaf", "Red", "Electric", 2020, 35500));
 		repository.save(new Car("Volvo", "V40", "White", "Diesel", 2017, 32000));
 		repository.save(new Car("Volvo", "S40", "White", "A95", 2012, 17500));
 		repository.save(new Car("Volvo", "XC40", "Black", "Diesel", 2021, 47000));
 		repository.save(new Car("Volvo", "XC60", "Black", "A95", 2015, 39000));
 		repository.save(new Car("Nissan", "X-Trail", "Silver", "Diesel", 2012, 19000));
 		repository.save(new Car("Volkswagen", "Polo", "Blue", "A95", 2014, 13300));
-		repository.save(new Car("Porsche", "911", "Red", "A98", 2007, 29000));
+		repository.save(new Car("Porsche", "911", "Red", "A98", 2017, 39000));
 		repository.save(new Car("Skoda", "Suberb", "Silver", "A95", 2020, 41000));
 		repository.save(new Car("Skoda", "Octavia", "Green", "A95", 2014, 18400));
 		repository.save(new Car("Subaru", "Outback", "White", "A95", 2012, 19000));
