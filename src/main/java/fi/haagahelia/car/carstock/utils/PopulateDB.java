@@ -29,8 +29,8 @@ public class PopulateDB {
 		repository.save(new Car("Peugeot", "508", "Red", "A95", 2015, 17900));			
 		repository.save(new Car("Toyota", "Auris", "Black", "A95", 2013, 16700));
 		repository.save(new Car("Toyota", "Auris", "Blue", "Hybrid", 2015, 19000));
-		repository.save(new Car("Toyota", "Avensis", "White", "Diesel", 2015, 18700));
-		repository.save(new Car("Toyota", "Prius", "White", "Hybrid", 2021, 35500));
+		repository.save(new Car("Toyota", "Avensis", "White", "Diesel", 2021, 28700));
+		repository.save(new Car("Toyota", "Prius", "White", "Hybrid", 2022, 35500));
 		repository.save(new Car("Nissan", "Micra", "Red", "A95", 2015, 15000));
 		repository.save(new Car("Nissan", "Micra", "Blue", "A95", 2016, 15500));
 		repository.save(new Car("Tesla", "Model S", "White", "Electric", 2020, 85000));
@@ -39,14 +39,14 @@ public class PopulateDB {
 		repository.save(new Car("Volvo", "V40", "White", "Diesel", 2017, 32000));
 		repository.save(new Car("Volvo", "S40", "White", "A95", 2012, 17500));
 		repository.save(new Car("Volvo", "XC40", "Black", "Diesel", 2021, 47000));
-		repository.save(new Car("Volvo", "XC60", "Black", "A95", 2015, 39000));
+		repository.save(new Car("Volvo", "XC60", "Black", "A95", 2022, 59000));
 		repository.save(new Car("Nissan", "X-Trail", "Silver", "Diesel", 2012, 19000));
 		repository.save(new Car("Volkswagen", "Polo", "Blue", "A95", 2014, 13300));
 		repository.save(new Car("Porsche", "911", "Red", "A98", 2017, 39000));
 		repository.save(new Car("Skoda", "Suberb", "Silver", "A95", 2020, 41000));
 		repository.save(new Car("Skoda", "Octavia", "Green", "A95", 2014, 18400));
 		repository.save(new Car("Subaru", "Outback", "White", "A95", 2012, 19000));
-		repository.save(new Car("Opel", "Astra", "White", "A95", 2019, 29000));
+		repository.save(new Car("Opel", "Astra", "White", "A95", 2022, 39000));
 		repository.save(new Car("Opel", "Mokka", "Red", "A95", 2014, 21000));
 		repository.save(new Car("Lexus", "Ct", "White", "Hybrid", 2013, 21500));			
 		repository.save(new Car("Lexus", "Ct", "Red", "Hybrid", 2021, 34500));
