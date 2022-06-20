@@ -6,7 +6,10 @@ http://carrestapi.herokuapp.com/cars
 and
 https://carstockrest.herokuapp.com/
 
-You can fetch all cars by calling ‘/cars’ endpoint using the GET method.
+Fetch all cars 
+```
+GET /cars
+```
 
 You can fetch one car by calling ‘/cars/{id} endpoint with car’s Id
 
