@@ -19,6 +19,7 @@ Delete car by id
 DELETE /cars/{id}
 ```
 Add new car 
+```
 POST /cars
 Header: 'Content-type': 'application/json'
 Body: car json
