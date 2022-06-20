@@ -10,19 +10,29 @@ Fetch all cars
 ```
 GET /cars
 ```
-
-You can fetch one car by calling ‘/cars/{id} endpoint with car’s Id
-
-You can delete car by calling ‘/cars/{id} endpoint with DELETE method
-
-You can add new car by calling ‘/cars’ endpoint with POST method and giving a new car inside the request body as a JSON string
+Fetch one car by id
+```
+GET /cars/{id}
+```
+Delete car by id
+```
+DELETE /cars/{id}
+```
+Add new car 
+POST /cars
 Header: 'Content-type': 'application/json'
-
-You can update car by calling ‘/cars/{id}’ endpoint with PUT method and giving a updated car inside the request body as a JSON object
+Body: car json
+```
+Update car by id
+```
+PUT /cars/{id}
 Header: 'Content-type': 'application/json'
-
-Note! You can re-populate the database by sending POST requst to '/reset' endpoint.
-
+Body: updated car json
+```
+Re-populate the database 
+```
+POST /reset
+```
 
 
 
