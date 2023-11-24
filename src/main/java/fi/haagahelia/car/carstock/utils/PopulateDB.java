@@ -23,7 +23,7 @@ public class PopulateDB {
 		repository.save(new Car("Mercedes-Benz", "A", "Red", "E95", 2017, 23500));
 		repository.save(new Car("Mercedes-Benz", "A", "White", "E95", 2020, 34000));
 		repository.save(new Car("Mazda", "6", "Red", "E95", 2018, 29000));
-		repository.save(new Car("Audi", "A3", "Black", "E95", 2020, 27600));
+		repository.save(new Car("Audi", "A3", "Black", "E95", 2022, 27600));
 		repository.save(new Car("Audi", "A3", "Silver", "E95", 2011, 12500));
 		repository.save(new Car("Audi", "A4", "White", "E95", 2017, 31500));
 		repository.save(new Car("Peugeot", "508", "Red", "E95", 2015, 17900));			
@@ -35,11 +35,11 @@ public class PopulateDB {
 		repository.save(new Car("Nissan", "Micra", "Blue", "E95", 2016, 15500));
 		repository.save(new Car("Tesla", "Model S", "White", "Electric", 2020, 85000));
 		repository.save(new Car("Tesla", "Model X", "Silver", "Electric", 2021, 96000));
-		repository.save(new Car("Nissan", "Leaf", "Red", "Electric", 2020, 35500));
+		repository.save(new Car("Nissan", "Leaf", "Red", "Electric", 2022, 35500));
 		repository.save(new Car("Volvo", "V40", "White", "Diesel", 2017, 32000));
 		repository.save(new Car("Volvo", "S40", "White", "E95", 2012, 17500));
 		repository.save(new Car("Volvo", "XC40", "Black", "Diesel", 2021, 47000));
-		repository.save(new Car("Volvo", "XC60", "Black", "E95", 2022, 59000));
+		repository.save(new Car("Volvo", "XC60", "Black", "E95", 2023, 59000));
 		repository.save(new Car("Nissan", "X-Trail", "Silver", "Diesel", 2012, 19000));
 		repository.save(new Car("Volkswagen", "Polo", "Blue", "E95", 2014, 13300));
 		repository.save(new Car("Porsche", "911", "Red", "E98", 2017, 39000));
@@ -49,8 +49,8 @@ public class PopulateDB {
 		repository.save(new Car("Opel", "Astra", "White", "E95", 2022, 39000));
 		repository.save(new Car("Opel", "Mokka", "Red", "E95", 2014, 21000));
 		repository.save(new Car("Lexus", "Ct", "White", "Hybrid", 2013, 21500));			
-		repository.save(new Car("Lexus", "Ct", "Red", "Hybrid", 2021, 34500));
+		repository.save(new Car("Lexus", "Ct", "Red", "Hybrid", 2023, 36500));
 		repository.save(new Car("Hyundai", "Kona", "White", "Electric", 2022, 46000));
-		repository.save(new Car("Kia", "Sportage", "Red", "E95", 2021, 42300));
+		repository.save(new Car("Kia", "Sportage", "Red", "E95", 2022, 42300));
 	}
 }
