@@ -3,8 +3,6 @@ Restful API for front end course
 
 Running on 
 http://carrestapi.herokuapp.com/cars
-and
-https://carstockrest.herokuapp.com/
 
 Fetch all cars 
 ```
