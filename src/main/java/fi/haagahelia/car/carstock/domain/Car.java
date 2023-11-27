@@ -1,9 +1,9 @@
 package fi.haagahelia.car.carstock.domain;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
 
 @Entity
 public class Car {
@@ -11,7 +11,7 @@ public class Car {
 	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long id;
 	private String brand, model, color, fuel;
-	private int year, price;
+	private int modelYear, price;
 	
 	public Car() {
 	}
@@ -22,7 +22,7 @@ public class Car {
 		this.model = model;
 		this.color = color;
 		this.fuel = fuel;
-		this.year = year;
+		this.modelYear = year;
 		this.price = price;
 	}
 	
@@ -66,12 +66,12 @@ public class Car {
 		this.fuel = fuel;
 	}
 	
-	public int getYear() {
-		return year;
+	public int getModelYear() {
+		return modelYear;
 	}
 	
-	public void setYear(int year) {
-		this.year = year;
+	public void setModelYear(int year) {
+		this.modelYear = year;
 	}
 
 	public int getPrice() {

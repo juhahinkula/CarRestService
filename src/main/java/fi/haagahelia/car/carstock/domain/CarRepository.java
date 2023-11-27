@@ -12,6 +12,6 @@ public interface CarRepository extends CrudRepository<Car, Long> {
 	List<Car> findByModel(@Param("model") String model);
 	List<Car> findByFuel(@Param("fuel") String fuel);
 	List<Car> findByColor(@Param("color") String color);
-	List<Car> findByYear(@Param("year") int year);
+	List<Car> findByModelYear(@Param("year") int year);
 }
 
