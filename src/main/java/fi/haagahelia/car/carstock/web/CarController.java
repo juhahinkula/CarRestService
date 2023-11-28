@@ -12,7 +12,7 @@ public class CarController {
 	private PopulateDB populateDb;
 	
 	@PostMapping("reset")
-	public ResponseEntity<String>  reset() {
+	public ResponseEntity<String> reset() {
 		populateDb.populate();
 		return ResponseEntity.ok("DB reset done");
 	}
