@@ -1,17 +1,31 @@
 package fi.haagahelia.car.carstock.domain;
 
+import io.swagger.v3.oas.annotations.Hidden;
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
+@Schema(name = "Car", description = "A car object")
 public class Car {
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
+	@Hidden
 	private long id;
-	private String brand, model, color, fuel;
-	private int modelYear, price;
+	@Schema(description = "The brand of the car", example = "Ford")
+	private String brand;
+	@Schema(description = "The model of the car", example = "Mustang")
+	private String model;
+	@Schema(description = "The color of the car", example = "Red")
+	private String color;
+	@Schema(description = "The fuel of the car", example = "Diesel")
+	private String fuel;
+	@Schema(description = "The year model of the car", example = "2023")
+	private int modelYear;
+	@Schema(description = "The price of the car (euros)", example = "44000")
+	private int price;
 	
 	public Car() {
 	}
